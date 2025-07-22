@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#nameList div {
+  margin: 5px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.word-button {
+  margin: 5px 0;
+  padding: 10px;
+  background: #e0e0e0;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.word-button.revealed {
+  background: #c8facc;
+}
+
+.result {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
